@@ -1,7 +1,7 @@
 .flex-container {
     display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: flex-start;
     background-color: DodgerBlue;
   }
   
@@ -12,5 +12,8 @@
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+  }
+  .flex-container>div 1{
+    flex-grow="2"
   }
   </style>
